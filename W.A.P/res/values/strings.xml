@@ -3,28 +3,28 @@
 
     <string name="app_name">W.A.P</string>
     
-    <string name="menu_action_bar_ayarlar_title">Settings</string>
+    <string name="menu_action_bar_settings_title">Settings</string>
     
-    <string name="pref_category_gizlilik">PRIVACY</string>
-    <string name="pref_category_gizlilik_title">Privacy</string>
-    <string name="pref_category_gizlilik_summary">Privacy Settings</string>
+    <string name="pref_category_privacy">PRIVACY</string>
+    <string name="pref_category_privacy_title">Privacy</string>
+    <string name="pref_category_privacy_summary">Privacy Settings</string>
     
-    <string name="pref_category_uyarilar">WARNINGS</string>
-    <string name="pref_category_uyarilar_title">Warnings</string>
-    <string name="pref_category_uyarilar_summary">Warning Settings</string>
+    <string name="pref_category_warnings">WARNINGS</string>
+    <string name="pref_category_warnings_title">Warnings</string>
+    <string name="pref_category_warnings_summary">Warning Settings</string>
     
-    <string name="pref_category_tonlar">TONES</string>
-    <string name="pref_category_tonlar_title">Tones</string>
-    <string name="pref_category_tonlar_summary">Notification Tones</string>
+    <string name="pref_category_tones">TONES</string>
+    <string name="pref_category_tones_title">Tones</string>
+    <string name="pref_category_tones_summary">Notification Tones</string>
     
-    <string name="pref_otomatik_baslat_title">Start Automatically</string>
-    <string name="pref_konum_bilgimi_gonder_title">Send Me My Location</string>
-    <string name="pref_arkadas_uyari_title">Notify People Around Here</string>
+    <string name="pref_start_automatically_title">Start Automatically</string>
+    <string name="pref_send_location_title">Send My Location</string>
+    <string name="pref_friend_warning_title">Notify People Around Here</string>
     
-    <string name="pref_yakinlik_title">Distance Measurements</string>
-    <string name="pref_yakinlik_summary">How close to me ?</string>
+    <string name="pref_distance_title">Distance Measurements</string>
+    <string name="pref_distance_summary">How close to me ?</string>
     
-    <string name="pref_bildirim_tonu_title">NotificationTone</string>
-    <string name="pref_bildirim_tonu_summary">Friend Warning Tone</string>
+    <string name="pref_notification_tone_title">NotificationTone</string>
+    <string name="pref_notification_tone_summary">Friend Warning Tone</string>
 
 </resources>
