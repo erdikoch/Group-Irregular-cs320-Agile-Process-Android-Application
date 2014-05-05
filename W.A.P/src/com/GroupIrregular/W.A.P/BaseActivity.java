@@ -1,4 +1,4 @@
-package com.kodlab.kimnerede;
+package com.groupIrregular.wap;
 
 import android.app.Activity;
 

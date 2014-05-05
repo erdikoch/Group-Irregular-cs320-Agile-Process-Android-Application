@@ -1,7 +1,8 @@
 package com.groupIrregular.wap;
 
 import java.util.List;
-import com.groupIrregular.wap.R;
+
+
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,12 +11,12 @@ import android.view.MenuItem;
 
 public class SettingsActivity extends PreferenceActivity {
 	
-	
+	@Override
 	public void onBuildHeaders(List<Header> target) {
 		loadHeadersFromResource(R.xml.preferences, target);
 	}
 	
-	
+	@Override
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
