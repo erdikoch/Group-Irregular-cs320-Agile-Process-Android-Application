@@ -1,6 +1,6 @@
-
-    <resources>
-        <color name="giris_arka_plan">#FFA500</color>
-        <color name="GroupIrregular">#000000</color>
-        
-    </resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="giris_arka_plan">#2B3856</color>
+    <color name="GroupIrregular">#FFFFFFFF</color>
+    
+</resources>
