@@ -4,12 +4,12 @@
         android:key="display_settings">
     
     <PreferenceCategory
-            android:title="@string/pref_category_tonlar">
+            android:title="@string/pref_category_tones">
     
 	    <RingtonePreference
-		      android:key="PREF_BILDIRIM_TONU"
-		      android:title="@string/pref_bildirim_tonu_title"
-		      android:summary="@string/pref_bildirim_tonu_summary"
+		      android:key="PREF_NOTIFICATION_TONE"
+		      android:title="@string/pref_notification_tone_title"
+		      android:summary="@string/pref_notification_tone_summary"
 		      android:showDefault="true"
 		      android:showSilent="true"
 		      android:ringtoneType="notification"/>
