@@ -2,6 +2,7 @@ package com.groupIrregular.wap;
 
 import java.util.List;
 
+import com.groupIrregular.wap.R;
 
 import android.app.ActionBar;
 import android.content.Intent;
