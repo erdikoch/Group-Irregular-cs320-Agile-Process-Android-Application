@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splash_screen_background">   
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/menu_background"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/profileImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profile_photo"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="30dp" >
+
+                <EditText
+                    android:id="@+id/usernameEditText"
+                    android:hint="@string/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+        <EditText
+            android:id="@+id/nameEditText"
+            android:hint="@string/name_compulsory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="@android:color/black"/>
+        
+        <EditText
+            android:id="@+id/surnameEditText"
+            android:hint="@string/surname_compulsory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="@android:color/black"/>
+        
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:hint="@string/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:inputType="phone"
+            android:textColor="@android:color/black"/>
+        
+        <EditText
+            android:id="@+id/emailEditText"
+            android:hint="@string/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save" 
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>    
+    
+</RelativeLayout>

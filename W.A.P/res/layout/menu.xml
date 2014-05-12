@@ -2,12 +2,12 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/giris_arka_plan">
+    android:background="@color/splash_screen_background">
 
     <TableLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/menu_arka_plan"
+        android:background="@drawable/menu_background"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:paddingTop="25dp"
@@ -16,28 +16,28 @@
         
         <TableRow>
 	    	<ImageButton
-		        android:id="@+id/haritaImageButton"
+		        android:id="@+id/mapImageButton"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:src="@drawable/harita" />
+		        android:src="@drawable/map" />
 	    	<ImageButton
-		        android:id="@+id/kimlerImageButton"
+		        android:id="@+id/contactsImageButton"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:src="@drawable/kimler" />    
+		        android:src="@drawable/contacts" />    
 	    </TableRow>
 	    
         <TableRow android:paddingTop="10dp">
 	    	<ImageButton
-		        android:id="@+id/profilImageButton"
+		        android:id="@+id/profileImageButton"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:src="@drawable/profil" />
+		        android:src="@drawable/profile" />
 	    	<ImageButton
-		        android:id="@+id/ayarlarImageButton"
+		        android:id="@+id/settingsImageButton"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
-		        android:src="@drawable/ayarlar" />    
+		        android:src="@drawable/settings" />    
 	    </TableRow>
 
     </TableLayout>

@@ -3,17 +3,17 @@
         xmlns:android="http://schemas.android.com/apk/res/android">
 
     <header android:fragment="com.groupIrregular.wap.fragment.PrivacyPreferencesFragment"
-            android:icon="@drawable/pref_gizlilik"
+            android:icon="@drawable/pref_privacy"
             android:title="@string/pref_category_privacy_title"
             android:summary="@string/pref_category_privacy_summary" />
     
     <header android:fragment="com.groupIrregular.wap.fragment.WarningsPreferencesFragment"
-            android:icon="@drawable/pref_uyari"
+            android:icon="@drawable/pref_warning"
             android:title="@string/pref_category_warnings_title"
             android:summary="@string/pref_category_warnings_summary" />
     
     <header android:fragment="com.groupIrregular.wap.fragment.TonesPreferencesFragment"
-            android:icon="@drawable/pref_bildirim_tonu"
+            android:icon="@drawable/pref_notification_tone"
             android:title="@string/pref_category_tones_title"
             android:summary="@string/pref_category_tones_summary" />
 
