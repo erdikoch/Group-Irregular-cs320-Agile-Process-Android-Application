@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="giris_arka_plan">#2B3856</color>
-    <color name="GroupIrregular">#FFFFFFFF</color>
-    
+    <color name="splash_screen_background">#af1318</color>
 </resources>

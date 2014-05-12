@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">W.A.P</string>
+    <string name="app_name">Where are the people?</string>
     
     <string name="menu_action_bar_settings_title">Settings</string>
+    <string name="menu_action_bar_profile_title">Profile</string>
+    <string name="menu_action_bar_contacts_title">Contacts</string>
     
     <string name="pref_category_privacy">PRIVACY</string>
     <string name="pref_category_privacy_title">Privacy</string>
@@ -11,20 +13,46 @@
     
     <string name="pref_category_warnings">WARNINGS</string>
     <string name="pref_category_warnings_title">Warnings</string>
-    <string name="pref_category_warnings_summary">Warning Settings</string>
+    <string name="pref_category_warnings_summary">Warning Setting</string>
     
     <string name="pref_category_tones">TONES</string>
     <string name="pref_category_tones_title">Tones</string>
     <string name="pref_category_tones_summary">Notification Tones</string>
     
     <string name="pref_start_automatically_title">Start Automatically</string>
-    <string name="pref_send_location_title">Send My Location</string>
-    <string name="pref_friend_warning_title">Notify People Around Here</string>
+    <string name="pref_send_my_location_title">Send my location</string>
+    <string name="pref_friend_warning_title">Notify nearby</string>
     
-    <string name="pref_distance_title">Distance Measurements</string>
-    <string name="pref_distance_summary">How close to me ?</string>
+    <string name="pref_distance_title">Distance measurement</string>
+    <string name="pref_distance_summary">How close?</string>
     
-    <string name="pref_notification_tone_title">NotificationTone</string>
-    <string name="pref_notification_tone_summary">Friend Warning Tone</string>
-
+    <string name="pref_notification_tone_title">Notfication tone</string>
+    <string name="pref_notification_tone_summary">Friend warning tone</string>
+    
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="name_compulsory">Name (*)</string>
+    <string name="surname">Surname</string>
+    <string name="surname_compulsory">Surname (*)</string>
+    <string name="email">Email Address</string>
+    <string name="gender">Gender</string>
+    <string name="birthday">Birthday</string>
+    <string name="phone">Phone number</string>
+    <string name="save">Save</string>
+    
+    <string name="toast_unknown_error">Unknown error occured. Try again later!</string>
+    <string name="toast_save_profile_successfully">Your profile has been saved successfully!</string>
+    <string name="toast_profile_validation_error">Please fill the compulsory areas!</string>
+    <string name="toast_empty_parameter_error">%1$s have to be filled!</string>
+    
+    <string name="add_friends">Add friends</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="toast_no_registered_profile">You have not created a profile yet. Please create a profile first!</string>
+	<string name="toast_notFound_friend_profile">Friend profile that you have entered is not found.!</string>
+	<string name="toast_friend_avaiable">This user is in your contact list..</string>
+	<string name="toast_add_friend_successfully">Your friend has been added successfully...</string>
+	<string name="toast_notFound_friend">Contacts has not been found in your contact list...</string>
+	
 </resources>

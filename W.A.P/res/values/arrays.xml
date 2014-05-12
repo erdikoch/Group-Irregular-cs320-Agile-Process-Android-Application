@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string-array name="distance_measurements">
+    <string-array name="distance_measurement">
         <item>1 km</item>
         <item>2 km</item>
         <item>3 km</item>
         <item>4 km</item>
     </string-array>
     
-    <string-array name="distance_measurements_values">
+    <string-array name="distance_mesurement_values">
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
+    </string-array>
+    
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
     </string-array>
     
 </resources>
