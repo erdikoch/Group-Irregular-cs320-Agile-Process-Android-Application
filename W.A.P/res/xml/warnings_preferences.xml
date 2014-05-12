@@ -12,13 +12,13 @@
 			android:defaultValue="true"/>
 	    
 	    <ListPreference
-	        android:key="PREF_DISTANCE_MEASUREMENTS"
+	        android:key="PREF_YAKINLIK_OLCUSU"
 	        android:title="@string/pref_distance_title"
 	        android:summary="@string/pref_distance_summary"
 	        android:defaultValue="1"
 	        android:dialogTitle="@string/pref_distance_title"
-	        android:entries="@array/distance_measurements"
-	        android:entryValues="@array/distance_measurements_values"/>
+	        android:entries="@array/distance_measurement"
+	        android:entryValues="@array/distance_mesurement_values"/>
 	
 	</PreferenceCategory>
     

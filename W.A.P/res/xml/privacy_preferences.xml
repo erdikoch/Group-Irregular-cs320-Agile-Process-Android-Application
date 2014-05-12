@@ -7,13 +7,13 @@
             android:title="@string/pref_category_privacy">
     
 	    <CheckBoxPreference
-			android:key="PREF_START_AUTOMATICALLY"
+			android:key="PREF_OTOMATIK_BASLAT"
 			android:title="@string/pref_start_automatically_title"
 			android:defaultValue="true"/>
 	    
 	    <CheckBoxPreference
-			android:key="PREF_SEND_LOCATION"
-			android:title="@string/pref_send_location_title"
+			android:key="PREF_KONUM_GONDER"
+			android:title="@string/pref_send_my_location_title"
 			android:defaultValue="true"/>
 	
 	</PreferenceCategory>
